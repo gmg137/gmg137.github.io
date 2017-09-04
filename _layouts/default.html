@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh_CN">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script type="text/javascript" src="./ueditor/ueditor.parse.js"></script>
+    <title>{{ page.title }}</title>
+
+</head>
+<script type="text/javascript">
+document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+WeixinJSBridge.call('hideOptionMenu');
+});
+</script>
+<style>
+img{
+    width: 100%;
+}
+</style>
+    <h3>{{ page.title }}</h3>
+    <span id="post-date" class="activity-meta no-extra" style="color: rgb(89, 89, 89);">{{ page.time }}</span>
+    <span class="activity-meta" style="color: rgb(89, 89, 89);">{{ page.author }}</span></div>
+<body>
+    <div id="Content">
+        {{ content }}
+    </div>
+
+</body>
+</html>

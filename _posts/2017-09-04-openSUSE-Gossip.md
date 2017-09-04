@@ -4,8 +4,9 @@ title: openSUSE Gossip
 time: 2017-09-04
 author: Lwhite
 ---
-### 20170605-20170902 期
 ![](/img/gossip.jpeg)
+
+#### 20170605-20170902 期
 
 ### 官方新闻
 

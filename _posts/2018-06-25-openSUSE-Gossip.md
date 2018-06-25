@@ -4,7 +4,6 @@ title: openSUSE Gossip
 time: 2018-06-25
 author: Lwhite
 ---
-![](/img/gossip.jpeg)
 
 #### 20180403-20180625 期
 
